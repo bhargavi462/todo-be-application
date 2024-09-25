@@ -1,0 +1,26 @@
+http://localhost:3030/getusers/
+###
+
+
+
+http://localhost:3030/todos/1/
+Content-Type: 'application/json'
+
+{
+    "status" : "DONE"
+}
+###
+
+POST http://localhost:3030/todos
+Content-Type:application/json 
+
+{
+  
+  "todo": "Finalize event theme",
+  "status": "TO DO"
+}
+###
+
+DELETE http://localhost:3030/todos/10/
+ 
+
